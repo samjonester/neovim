@@ -566,7 +566,7 @@ buf_T *find_buffer_by_handle(Buffer buffer, Error *err)
   return rv;
 }
 
-win_T * find_window_by_handle(Window window, Error *err)
+win_T *find_window_by_handle(Window window, Error *err)
 {
   if (window == 0) {
     return curwin;
@@ -581,7 +581,7 @@ win_T * find_window_by_handle(Window window, Error *err)
   return rv;
 }
 
-tabpage_T * find_tab_by_handle(Tabpage tabpage, Error *err)
+tabpage_T *find_tab_by_handle(Tabpage tabpage, Error *err)
 {
   if (tabpage == 0) {
     return curtab;
